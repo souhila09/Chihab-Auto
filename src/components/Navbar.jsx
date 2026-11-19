@@ -1,6 +1,6 @@
 function Navbar() {
   return (
-    <nav>
+    <nav className="navbar">
       <h2>Chihab Auto DZ</h2>
 
       <ul>
