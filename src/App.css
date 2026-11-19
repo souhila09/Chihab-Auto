@@ -1,0 +1,131 @@
+nav {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+}
+
+nav h2 {
+  color: #d4af37;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+nav li {
+  color: white;
+  cursor: pointer;
+}
+.hero {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.overlay h1 {
+  color: white;
+  font-size: 60px;
+}
+
+.overlay p {
+  color: white;
+  font-size: 22px;
+  margin: 20px 0;
+}
+
+.overlay button {
+  padding: 15px 30px;
+  background-color: #d0a92b;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+.app {
+  background-image: url("./assets/Chihab.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+.cars {
+  padding: 60px 50px;
+  text-align: center;
+}
+
+.cars h2 {
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.car-card {
+  background-color: white;
+  width: 350px;
+  padding: 20px;
+  border-radius: 15px;
+  margin: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+.cars {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.car-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.car-card button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #d4af37;
+  border: none;
+  cursor: pointer;
+}
+.contact {
+  padding: 60px;
+  text-align: center;
+}
+
+.contact form {
+  width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact input,
+.contact textarea {
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.contact button {
+  padding: 15px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
